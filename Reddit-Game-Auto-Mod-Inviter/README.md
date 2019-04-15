@@ -1,0 +1,1 @@
+Quick script to mod people to all /r/game subreddit because I ain't adding them myself for like 50 minutes (Esp when we have like 50+ mods)
