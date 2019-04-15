@@ -1,0 +1,1 @@
+I just needed to quickly get those 100 mod activities once and was too lazy to go through the mod-queue, so I reused this code that detects RepostSentinel detecting reposts :P
