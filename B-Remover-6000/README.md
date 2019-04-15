@@ -1,0 +1,1 @@
+When we banned the B-emoji we had a little internal festival with like 1k removals, was funny
