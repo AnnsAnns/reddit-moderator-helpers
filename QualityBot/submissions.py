@@ -2,6 +2,7 @@ import praw
 from config import *
 
 for submission in subreddit.stream.submissions(): # Live Feed
+    SKIP = False
     if submission.approved or submission.distinguished or submission.locked or submission.stickied:
         continue # Skip
     

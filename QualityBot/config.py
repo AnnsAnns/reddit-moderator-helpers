@@ -7,7 +7,7 @@ reddit = praw.Reddit(user_agent="BOSSFIGHT BOT v1",
 subreddit_name = "Bossfight"
 subreddit = reddit.subreddit(subreddit_name)
 
-reply_message = "Is this bossfight epic and fit to the sub? If so, please upvote this comment! \n\n"\
-                "I'm a bot created to make moderation easier :)"
+reply_message = "Is this bossfight legendary? Or does it break any rules? Upvote/Downvote this comment to let the mods know! \n\n"\
+                "--- \n\n I'm a bot created to make moderation easier :)"
 
 bot_name = "r_tomBOT"
