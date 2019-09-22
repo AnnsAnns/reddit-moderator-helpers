@@ -15,3 +15,4 @@ for submission in subreddit.steam.submission(): # Live Feed
         continue # Skip
     
     submission.reply(reply_message).mod.distinguish(how="yes", sticky=True)
+    print("Added note to submission")
