@@ -10,7 +10,7 @@ while True: # Loop
                 comment.submission.report(f"Warning! Bot comment has reached a score of {comment.score}." \
                     "Please check the post!")
                 print("Detected Negative Karma!")
-        elif comment.score >= 100:
+        elif comment.score >= 25:
             comment.edit("What a legendary fight! Thank you so much for letting us know that this post is good." \
                          "\n\n --- \n\n I'm a bot created to make the moderation of this sub easier")
             comment.submission.mod.approve()
