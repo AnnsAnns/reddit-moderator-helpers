@@ -8,7 +8,7 @@ while True: # Loop
         print(f"Found comment with {comment.score} karma!"\
             f"|{'T' if comment.submission.approved else 'F'} | {comment.permalink}")
         if comment.subreddit == subreddit and not comment.submission.approved and not comment.submission.removed and not comment.submission.hidden: #  Since the bot is used for multiple subs
-            if comment.score >= -3:
+            if comment.score <= -3:
                 comment.submission.report(f"Warning! Bot comment has reached a score of {comment.score}." \
                     "Please check the post!")
                 print("Detected Negative Karma!")
