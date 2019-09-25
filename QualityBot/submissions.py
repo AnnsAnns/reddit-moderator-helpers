@@ -3,7 +3,7 @@ from config import *
 
 for submission in subreddit.stream.submissions(): # Live Feed
     SKIP = False
-    if submission.approved or submission.distinguished or submission.locked or submission.stickied:
+    if submission.approved or submission.distinguished or submission.locked or submission.stickied or submission.hidden or submission.removed:
         continue # Skip
     
     #Check through comments for important infos

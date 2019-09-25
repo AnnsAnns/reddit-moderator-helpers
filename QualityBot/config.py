@@ -1,4 +1,5 @@
 import praw
+import dhooks
 
 reddit = praw.Reddit(user_agent="BOSSFIGHT BOT v1",
                      client_id="CLIENT_ID", client_secret="CLIENT_SECRET",
@@ -11,3 +12,6 @@ reply_message = "Is this bossfight legendary? Or does it break any rules? Upvote
                 "--- \n\n I'm a bot created to make moderation easier :)"
 
 bot_name = "r_tomBOT"
+
+discord_approved = dhooks.Webhook("URL")
+discord_reported = dhooks.Webhook("URL")
